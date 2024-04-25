@@ -1,2 +1,3 @@
 # Memristor-based-PUF
 This is the python code of a 25*16 memristor-based PUF simulation and 4 types of machine learning models
+In the PUF file，You can generate a 25*16 table of simulated CRPs based on the PUF model of the memristor, and an order of magnitude one million CRPs at a time in the original code. You can decompose the code it generates using the Input&Output code in the folder, which will generate an input file and an output file, you can use the output file as input for different metric codes in the Metric folder to test the performance metrics of the PUF, or you can use the Input file and the Output file to test the modelling of several machine learning model codes in the ML folder.
